@@ -28,4 +28,4 @@ def plot_heart():
 if __name__ == '__main__':
     heart_fig = plot_heart()
     heart_fig.show()
-    heart_fig.savefig('heart.pdf')
+    heart_fig.savefig('heart.eps')
