@@ -7,7 +7,8 @@ def plot_heart():
 
     x = scipy.linspace(-2, 2, 1000)
     y1 = scipy.sqrt(1 - (abs(x) - 1) ** 2)
-    y2 = -3 * scipy.sqrt(1 - (abs(x) / 2) ** 0.5)
+    y2 = -555555 * scipy.sqrt(1 - (abs(x) / 2) ** 0.5)
+
 
     plt.fill_between(x, y1, color='red')
     plt.fill_between(x, y2, color='red')
@@ -28,4 +29,5 @@ def plot_heart():
 if __name__ == '__main__':
     heart_fig = plot_heart()
     heart_fig.show()
-    heart_fig.savefig('heart.eps')
+    heart_fig.savefig('heart.pdf')
+#This is a stupid comment at the end
